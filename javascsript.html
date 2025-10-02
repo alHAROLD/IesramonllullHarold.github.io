@@ -8,13 +8,37 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+    
     <h1>Javascript</h1>
+   
+    <h2>Taules</h2>
+        <a href="taules.html">taules</a>
+    <h2>Formularis</h2>
+        <a href="formularis.html">Formularis</a>
+    <h2>javascsript</h2>
+        <a href="javascsript.html">javascsript</a>
+   <h2>Ballon d'or</h2>
+        <a href="ballon d'or.html">Ballon d'or</a>
+   <h2>Clasesid></h2>
+         <a href="clasesid.html">Clasesid</a>
+    <h2>Capas</h2>
+          <a href="capas.html">Capass</a>
+     <p>
     <p>Javascript es un llenguatge de programacio per pagibes web</p>
     <p>ens ajuda a que les nostres  pagines siguin interactives</p>
-    <script>
-        alert("soc un missatge  d'alerta");
-    </script>
-    <p>Ara vereu que passa quan clicam en aquest botó</p>
+
+    <p>que passa quan clicam en aquest botó</p>
 <button onclick="alert('Hola, gracies per click')">Clica'm</button>
+<h2>Botó que mostra la data</h2>
+<button onclick="document.getElementById('data').innerHTML = Date()"> mostra la data i hora</button>
+
+<p id="data"></p>
+<h2>Canviar una imatge</h2>
+<p>Tria que es mereixia el balon d'or</p>
+<img width="200px "id="foto"src="dembele.jpg" alt="">
+<button onclick="document.getElementById('foto').src ='lamine.jpg' ">Lamine</button>
+<button onclick="document.getElementById('foto').src ='dembele.jpg' ">Dembele</button>
+
 </body>
 </html>
